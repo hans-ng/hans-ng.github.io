@@ -11,7 +11,7 @@ window.onload = function() {
 
 // Get a random quote from quoteondesign.com
 function getQuote() {
-  var url = "http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=updateQuote" + "&dummy=" + (new Date()).getTime(); //&dummy=Date.getTime() to renew url and pass browser cache
+  var url = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=updateQuote" + "&dummy=" + (new Date()).getTime(); //&dummy=Date.getTime() to renew url and pass browser cache
   
   var headElement = document.getElementsByTagName("head")[0];
   

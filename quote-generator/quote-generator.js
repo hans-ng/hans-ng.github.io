@@ -76,6 +76,6 @@ function tweetQuote() {
     quote += "...";
   }
   
-  var tweetLink = "http://twitter.com/home?status=" + encodeURIComponent(quote);
+  var tweetLink = "https://twitter.com/home?status=" + encodeURIComponent(quote);
   window.open(tweetLink,"_blank");
 }

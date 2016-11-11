@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hans Ng's Personal Page</title>
+  <link rel="stylesheet" href="./assets/stylesheets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:200,400">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div id="logo"><a href="#about">Hans Ng</a></div>
+      
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- About -->
+    <section id="about">
+      <div class="section-header">About me</div>
+      <img src="./assets/images/profile/Hans%20Ng_mono_square.jpg" alt="Hans Ng">
+      <p>I am Hans Ng</p>
+      <p>A Finance Business Partner <br>and<br> <a href="http://www.freecodecamp.com/hans-ng" target="_blank">Free Code Camper</a> who is pursuing professional Full Stack Web Development</p>
+    </section>
+    
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <div class="section-header">My portfolio</div>
+
+      <article class="portfolio">
+        <a href="./tribute-page/tribute.html" target="_blank">
+          <img src="./assets/images/thumbnail/tribute-page.png" alt="Tom Attwater's Tribute Page">
+          <p>Simple responsive Tribute Page</p>
+        </a>
+      </article><!--
+
+   --><article class="portfolio">
+        <a href="./game-life/life.html" target="_blank">
+          <img src="./assets/images/thumbnail/game-of-life.png" alt="Game of life">
+          <p>A colorful game of life inspired by <a href="http://www.wickedlysmart.com" target="_blank">WickedlySmart</a></p>
+        </a>
+      </article><!--
+
+   --><article class="portfolio">
+        <a href="./quote-generator/quote-generator.html" target="_blank">
+          <img src="./assets/images/thumbnail/quote-generator.png" alt="Quote Generator">
+          <p>Quote Generator using API from <a href="http://www.quotesondesign.com" target="_blank">QuotesOnDesign</a></p>
+        </a>
+      </article>
+    </section>
+    
+    <!-- Contact -->
+    <section id="contact">
+      <div class="section-header">Contact me</div>
+      <form action="" method="post">
+        <label for="name">
+          <p>Your name</p>
+          <input type="text" id="name" placeholder="Full name" required>
+        </label>
+        
+        <label for="email">
+          <p>Your email</p>
+          <input type="email" id="email" placeholder="Email address" required>
+        </label>
+        
+        <label for="comment">
+          <p>Your comment</p>
+          <textarea id="comment" cols="30" rows="10" placeholder="Comment..." required></textarea>
+        </label>
+        
+        <input class="btn" type="submit" value="Send">
+      </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+      <small>&copy; Hans Ng</small>
+      
+      <section id="social">
+        <a href="https://www.freecodecamp.com/hans-ng" target="_blank">
+          <img src="./assets/images/icon/fcc_puck600.png" alt="freecodecamp icon">
+        </a>
+
+        <a href="https://twitter.com/Hans__Ng" target="_blank">
+          <img src="./assets/images/icon/Twitter_Logo_White_On_Blue.png" alt="freecodecamp icon">
+        </a>
+        
+        <a href="https://github.com/hans-ng" target="_blank">
+          <img src="./assets/images/icon/github-256.png" alt="freecodecamp icon">
+        </a>
+      </section>
+    </footer>
+  </div>
+</body>
+</html>

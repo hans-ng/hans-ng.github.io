@@ -1,0 +1,30 @@
+body {
+  max-width: 960px;
+  margin: 10% auto;
+  text-align: center;
+}
+
+blockquote, button {
+  text-align: center;
+  margin: auto 0.5em;
+  color: #37454d;
+  border-style: none;
+  font: 1.2em "Dosis", Helvetica, sans-serif;
+}
+
+blockquote {
+/*  font: 1.2em "Dosis", Helvetica, sans-serif;*/
+  border-radius: 7px;
+  margin-bottom: 1em;
+  padding: 1em 3em;
+}
+
+button {
+  padding: 0.3em 0.9em;
+  border-radius: 7px;
+  letter-spacing: 0.05em;
+}
+
+button:hover {
+  cursor: pointer;
+}

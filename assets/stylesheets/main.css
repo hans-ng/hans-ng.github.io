@@ -203,10 +203,13 @@ nav li {
   margin-bottom: 0.5em;
 }
 
-.portfolio caption {
-/*  color: #dcdede;*/
+.portfolio p {
+  font-size: 1.1em;
+}
+
+.portfolio div {
+  font-size: 0.9em;
   margin-top: 0.5em;
-  display: block;
 }
 
 .dummy-div {
